@@ -1,0 +1,46 @@
+﻿.grid-container {
+    display: grid;
+    grid-template-rows: 50px 40px 50px 50px 50px 50px;
+    grid-template-columns: 1fr 200px 400px 1fr;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+div {
+    font-family: Courier;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    vertical-align: middle;
+    display: table-cell;
+    height: 50px;
+    color: black;
+}
+
+#logo {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+#github {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+#blogspot {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+#email {
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
