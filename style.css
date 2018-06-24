@@ -1,6 +1,6 @@
 ﻿.grid-container {
     display: grid;
-    grid-template-rows: 100px 40px 50px 50px 50px 50px;
+    grid-template-rows: 100px 50px 75px 75px 50px;
     grid-template-columns: 1fr 200px 400px 1fr;
 }
 
@@ -27,7 +27,7 @@ a {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 7;
+    grid-row-end: 6;
 }
 
 #github {
@@ -35,12 +35,7 @@ a {
     grid-row-start: 3;
 }
 
-#blogspot {
-    grid-column-start: 3;
-    grid-row-start: 4;
-}
-
 #email {
     grid-column-start: 3;
-    grid-row-start: 5;
+    grid-row-start: 4;
 }
