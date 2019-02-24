@@ -6,15 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dkopec91.github.io", "dkopec91.github.io", "{5001D1D5-0A09-4BF1-8DFF-0C1A3B0EAA5F}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
-		style.css = style.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{E347A02B-1359-4BC0-BA64-20FF94BD5A3F}"
 	ProjectSection(SolutionItems) = preProject
-		img\blogspot.png = img\blogspot.png
 		img\email.png = img\email.png
 		img\github.png = img\github.png
 		img\logo.png = img\logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{1B25816D-6F64-43C7-AB16-8E3B66FF277B}"
+	ProjectSection(SolutionItems) = preProject
+		bootstrap\bootstrap.css = bootstrap\bootstrap.css
+		bootstrap\cover.css = bootstrap\cover.css
 	EndProjectSection
 EndProject
 Global
@@ -23,5 +27,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E347A02B-1359-4BC0-BA64-20FF94BD5A3F} = {5001D1D5-0A09-4BF1-8DFF-0C1A3B0EAA5F}
+		{1B25816D-6F64-43C7-AB16-8E3B66FF277B} = {5001D1D5-0A09-4BF1-8DFF-0C1A3B0EAA5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9E45B7E-E31F-4138-B19B-9C5B432F88BB}
 	EndGlobalSection
 EndGlobal
