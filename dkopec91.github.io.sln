@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dkopec91.github.io", "dkopec91.github.io", "{5001D1D5-0A09-4BF1-8DFF-0C1A3B0EAA5F}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,10 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{E347A02B-135
 		img\logo.png = img\logo.png
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{1B25816D-6F64-43C7-AB16-8E3B66FF277B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{1B25816D-6F64-43C7-AB16-8E3B66FF277B}"
 	ProjectSection(SolutionItems) = preProject
-		bootstrap\bootstrap.css = bootstrap\bootstrap.css
-		bootstrap\cover.css = bootstrap\cover.css
+		css\bootstrap.css = css\bootstrap.css
+		css\custom.css = css\custom.css
 	EndProjectSection
 EndProject
 Global
