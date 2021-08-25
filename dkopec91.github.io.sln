@@ -17,7 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{E347A02B-135
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{1B25816D-6F64-43C7-AB16-8E3B66FF277B}"
 	ProjectSection(SolutionItems) = preProject
-		css\bootstrap.css = css\bootstrap.css
 		css\custom.css = css\custom.css
 	EndProjectSection
 EndProject
